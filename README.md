@@ -7,7 +7,7 @@ Fri 12:50PM - 3:35PM
 ### Schedule
 
 |Class |Topic  | Resources | Assignments |
-| ---  | ---   |  ---      |             |
+| ---  | ---   |  ---      | ---         |
 | 8/20 | Intro |
 |      |
 | 8/27 |
