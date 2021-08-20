@@ -159,9 +159,9 @@ head -n 1 film.csv | tr ';' '\n'
 cut -f 3 -d ';' film.csv | head
 ```
 
-3. Find the movie with the greatest popularity
+3. Find the longest movie.
 
-```bash|{type:'command', shell: 'bash', failed_when:"!stdout.includes('Startup Stash;A curated directory of 400 resources & tools for startups')"}
+```bash|{type:'command', shell: 'bash', failed_when:"!stdout.includes('Holocaust')"}
 # 
 ```
 
