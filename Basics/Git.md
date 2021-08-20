@@ -16,7 +16,7 @@ Let's try the basics. Let's create a new local git repository.
 
 Create a new directory (Basics) and file (README.md).
 
-```bash|{type:'file', path: 'Basics/README.md'}
+```bash|{type:'file', path: '/Course/Basics/README.md'}
 # Project 0
 Hello!
 ```
@@ -26,13 +26,13 @@ In the next set of commands, we will be working inside the `Basics/` directory.
 
 This will create a new .git directory to store commits and other objects.
 
-```bash|{type:'command', path: 'Basics'}
+```bash|{type:'command', path: '/Course/Basics'}
 git init
 ```
 
 We can quickly inspect the contents of the git's directory and object store.
 
-```bash|{type:'command', path: 'Basics'}
+```bash|{type:'command', path: '/Course/Basics'}
 ls -l .git
 echo "objects:"
 ls -l .git/objects
@@ -40,13 +40,13 @@ ls -l .git/objects
 
 Before adding a file to the repository, it must first be staged.
 
-```bash|{type:'command', path: 'Basics'}
+```bash|{type:'command', path: '/Course/Basics'}
 git add README.md
 ```
 
 We will commit our staged changes into the repository.
 
-```bash|{type:'command', path: 'Basics'}
+```bash|{type:'command', path: '/Course/Basics'}
 git commit -m "initial commit"
 ```
 
@@ -63,7 +63,7 @@ Changes flow from our working tree, to staging index, and into repository.
 
 Update the README.md and stage our change.
 
-```bash|{type:'command', path: 'Basics', shell: 'bash'}
+```bash|{type:'command', path: '/Course/Basics'}
 echo " Update: $(date)" >> README.md
 cat README.md
 git add README.md
@@ -71,19 +71,19 @@ git add README.md
 
 View the current state of our **working tree** and **index**.
 
-```bash|{type:'command', path: 'Basics'}
+```bash|{type:'command', path: '/Course/Basics'}
 git status
 ```
 
 Unstage file (remove from index), but keep changes in working tree.
 
-```bash|{type:'command', path: 'Basics'}
+```bash|{type:'command', path: '/Course/Basics'}
 git restore --staged README.md
 ```
 
 Discard changes in worktree (we will lose our work!). This will restore changes to both the index and the working tree based on the latest version in the repo.
 
-```bash|{type:'command', path: 'Basics'}
+```bash|{type:'command', path: '/Course/Basics'}
 git restore --source=HEAD --staged --worktree README.md
 ```
 
@@ -131,14 +131,14 @@ http://pcottle.github.io/learnGitBranching/
 
 If you want to make sure your commits are properly linked to your GitHub account, make sure you have configured your computer to have your name and email filled out.
 
-```
+```bash
 $ git config --global user.name "FirstName LastName"
 $ git config --global user.email email@example.com
 ```
 
 You might also consider an authenication strategy. If you're being asked to login everytime your pull/push to your remote repository, you might want to enable caching of your credentials. For example, you could use: 
 
-```
+```bash
 git config --global credential.helper store
 ```
 
