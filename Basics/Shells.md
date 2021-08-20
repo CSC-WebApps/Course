@@ -161,8 +161,8 @@ cut -f 3 -d ';' film.csv | head
 
 3. Find the longest movie.
 
-```bash|{type:'command', failed_when:"!stdout.includes('Holocaust')"}
-
+```bash|{type:'command', failed_when:"!stdout.includes('Holocaust')"} 
+ 
 ```
 
 *Warning*: While this can be useful for quick and dirty analysis, for more serious processing, you will want to use a more robust csv parser. For example, using `awk` to count the number of fields (NF) seperated by `;`, we can see, that some data may be incorrect. This is because quoted semi-columns are not being escaped by the bash commands.
