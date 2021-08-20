@@ -36,8 +36,12 @@ _If running nodejs on Windows, you may want to check the option to install devto
 
 3. We will use online docable notebooks for some learning exercises and workshops. You should be able to run the notebooks in your browser.
 
-![docable](https://github.com/CSC-DevOps/Course/raw/master/imgs/docable-term.jpeg)
+```js | {type: 'script'}
+let keyboard = (_=>[..."`1234567890-=~~QWERTYUIOP[]\\~ASDFGHJKL;'~~ZXCVBNM,./~"].map(x=>(o+=`/${b='_'.repeat(w=x<y?2:' 667699'[x=["BS","TAB","CAPS","ENTER"][p++]||'SHIFT',p])}\\|`,m+=y+(x+'    ').slice(0,w)+y+y,n+=y+b+y+y,l+=' __'+b)[73]&&(k.push(l,m,n,o),l='',m=n=o=y),m=n=o=y='|',p=l=k=[])&&k.join`
+`)();
 
+console.log(keyboard);
+```
 
 ### Opunit checks
 
