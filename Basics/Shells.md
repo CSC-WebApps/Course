@@ -149,19 +149,19 @@ Using a combination of `cut`, `wc`, `head`, `tail`, `grep`, `sort`, `uniq`, pipe
 
 1. Count the number of columns inside the "users.*.csv" file.
 
-```bash|{type:'command', shell: 'bash', failed_when:"!stdout.includes('10')"}
+```bash|{type:'command', failed_when:"!stdout.includes('10')"}
 head -n 1 film.csv | tr ';' '\n'
 ```
 
 2. Count the number of times "City" is included in the movie title.
 
-```bash|{type:'command', shell: 'bash', failed_when:"!stdout.includes('7')"}
+```bash|{type:'command', failed_when:"!stdout.includes('7')"}
 cut -f 3 -d ';' film.csv | head
 ```
 
 3. Find the longest movie.
 
-```bash|{type:'command', shell: 'bash', failed_when:"!stdout.includes('Holocaust')"}
+```bash|{type:'command', failed_when:"!stdout.includes('Holocaust')"}
 # 
 ```
 
