@@ -63,6 +63,6 @@ opunit profile CSC-DevOps/profile:342.yml
 
 You should see something like:
 
-![opunit-pass](imgs/opunit-pass.png)
+![opunit-pass](https://github.com/CSC-DevOps/Course/raw/master/imgs/opunit-pass.png)
 
 For more details about this report, [see this page](https://github.com/CSC-DevOps/profile). You will want to have as many green checks as possible before starting class.
