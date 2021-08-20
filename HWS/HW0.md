@@ -15,7 +15,7 @@ Properly setting up your Discord and Moodle profile.
 
 Sign into [NCSU's GitHub](https://github.ncsu.edu/).
 
-1. Create a *private* repo called HW0-DevOps. 
+1. Create a *private* repo called HW0-WebApps. 
 2. Go to Settings, Collaborators and Teams, and add the TA and instructor as a collaborator (using their unity id).
 
 Sara Ghodsi <sghodsi@ncsu.edu>, Samim Mirhosseini <smirhos@ncsu.edu>, Christopher Parnin <cjparnin@ncsu.edu>
