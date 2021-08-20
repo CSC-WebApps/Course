@@ -46,8 +46,8 @@ git add README.md
 
 We will make sure git is configured with your name and email.
 ```bash | {type: 'command'}
-$ git config --global user.name "FirstName LastName"
-$ git config --global user.email email@example.com
+git config --global user.name "FirstName LastName"
+git config --global user.email email@example.com
 ```
 
 We will commit our staged changes into the repository.
