@@ -117,6 +117,82 @@ command > outputFile # redirect command output to outputFile as standard out
 command1 | command2  # pipes output of command1 as standard in to command2
 ```
 
+## Activity: Data Wrangling with bash
+
+Download data with `wget`.
+
+```bash|{type:'command', stream: true}
+wget -nc https://s3-us-west-2.amazonaws.com/producthunt-downloads/ph-export--2016-04-01.tar.gz --show-progress --progress=bar:force 2>&1
+```
+
+Create a directory to store the tar file contents
+
+```bash|{type:'command'}
+mkdir product-hunt 
+```
+
+Extract the archive and verify csv files exist inside the product-hunt folder.
+
+```bash|{type:'command'}
+tar -zxvf ph-export--2016-04-01.tar.gz -C product-hunt/
+ls product-hunt/
+```
+
+Data wrangling. 
+
+List the column headers inside the "users.*.csv" file
+
+```bash|{type:'command'}
+head -n 1 product-hunt/users--2016-04-01_14-36-26-UTC.csv
+```
+
+Extract a column of text from a file, using `cut`, skip over first line with `tail`, and then preview first 10 rows with `head`.
+
+```bash|{type:'command'}
+cut -f 4 -d ';' product-hunt/users*.csv | tail -n +2 | head 
+```
+
+*Note*: You may notice an error from this last command (`exit code: 141`) or a "write error" message in stderr. This is normal and expected behavior. After processing the first 10 lines of text, `head` will terminate, meaning that output that the previous commands was sending was suddenly closed, resulting in a `SIGPIPE`. If we wanted to make sure that we only received the contents of the file, and not stray warnings, we could redirect only stdout by using `1>`. 
+
+In bash, if we wanted to know the exit code of different parts of the command chain, we could get an array of exit codes using `echo ${PIPESTATUS[@]}`. Finally, we can toggle this behavior by setting `set -o pipefail` to turn pipe failure _on_, and `set +o pipefail` to turn it _off_.
+
+In bash:
+```bash|{type:'command', shell: 'bash'}
+set +o pipefail
+cut -f 4 -d ';' product-hunt/users*.csv | tail -n +2 | head 
+echo "Exit codes: ${PIPESTATUS[@]}"
+```
+
+#### Exercise: Data Science with Bash
+
+Using a combination of `cut`, `wc`, `head`, `tail`, `grep`, `sort`, `uniq`, pipes (`|`) and any other unix suitable commands, create a command that calculates the following.
+
+**Extend the following commands** to try to accomplish each task:
+
+1. Count the number of columns inside the "users.*.csv" file.
+
+```bash|{type:'command', shell: 'bash', failed_when:"!stdout.includes('14')"}
+head -n 1 product-hunt/users--2016-04-01_14-36-26-UTC.csv | tr ';' '\n'
+```
+
+2. Count the number of times "bitcoin" is referenced inside a the post's file "tagline" column. Tagline is the 4th column.
+
+```bash|{type:'command', shell: 'bash', failed_when:"!stdout.includes('42')"}
+cut -f 4 -d ';' product-hunt/posts--*.csv | head
+```
+
+3. Find the row of post with the highest number of votes (`votes_count`, 7th column).
+
+```bash|{type:'command', shell: 'bash', failed_when:"!stdout.includes('Startup Stash;A curated directory of 400 resources & tools for startups')"}
+# 
+```
+
+*Warning*: While this can be useful for quick and dirty analysis, for more serious processing, you will want to use a more robust csv parser. For example, using `awk` to count the number of fields (NF) seperated by `;`, we can see, that some data may be incorrect. This is because quoted semi-columns are not being escaped by the bash commands.
+
+```bash|{type:'command', shell: 'bash', failed_when:"!stdout.includes('14')"}
+awk -F';' '{print NF}' product-hunt/users--2016-04-01_14-36-26-UTC.csv | sort | uniq
+```
+
 ### Try on your own
 
 ``` | {type: 'terminal'}
