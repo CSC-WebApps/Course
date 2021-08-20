@@ -26,8 +26,7 @@ In the next set of commands, we will be working inside the `Basics/` directory.
 
 This will create a new .git directory to store commits and other objects.
 
-```bash|{type:'command'}
-cd Basics
+```bash|{type:'command', path: 'Basics'}
 git init
 ```
 
