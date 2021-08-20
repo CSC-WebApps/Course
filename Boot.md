@@ -47,7 +47,7 @@ console.log(keyboard);
 
 Do you have a functioning development environment needed for the course? 
 
-We have a tool that can help check.
+We have a tool that can help check. On your computer
 
 4. Inside a [terminal](https://github.com/chrisparnin/EngineeringBasics/blob/master/Shells.md#shells), run:
 
@@ -55,7 +55,7 @@ We have a tool that can help check.
 npm install ottomatica/opunit -g
 ```
 
-5. Now run:
+5. On your computer, now run:
 
 ```bash
 opunit profile CSC-DevOps/profile:342.yml
