@@ -127,16 +127,18 @@ wget -nc https://perso.telecom-paristech.fr/eagan/class/igr204/data/film.csv --s
 
 Data wrangling. 
 
-List the column headers inside the "users.*.csv" file
+List the first three rows of the film.csv file
 
 ```bash|{type:'command'}
-head -n 1 film.csv
+head -n 3 film.csv
 ```
 
 Extract a column of text from a file, using `cut`, skip over first line with `tail`, and then preview first 10 rows with `head`.
 
+Run this command, then modify it to extract other rows.
+
 ```bash|{type:'command'}
-cut -f 3 -d ';' film.csv | tail -n +2 | head 
+cut -f 3 -d ';' film.csv | tail -n +3 | head 
 ```
 
 #### Exercise: Data Science with Bash
