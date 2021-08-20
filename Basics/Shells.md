@@ -121,21 +121,8 @@ command1 | command2  # pipes output of command1 as standard in to command2
 
 Download data with `wget`.
 
-```bash|{type:'command', stream: true}
-wget -nc https://s3-us-west-2.amazonaws.com/producthunt-downloads/ph-export--2016-04-01.tar.gz --show-progress --progress=bar:force 2>&1
-```
-
-Create a directory to store the tar file contents
-
 ```bash|{type:'command'}
-mkdir product-hunt 
-```
-
-Extract the archive and verify csv files exist inside the product-hunt folder.
-
-```bash|{type:'command'}
-tar -zxvf ph-export--2016-04-01.tar.gz -C product-hunt/
-ls product-hunt/
+wget -nc https://perso.telecom-paristech.fr/eagan/class/igr204/data/film.csv --show-progress --progress=bar:force 2>&1
 ```
 
 Data wrangling. 
@@ -143,7 +130,7 @@ Data wrangling.
 List the column headers inside the "users.*.csv" file
 
 ```bash|{type:'command'}
-head -n 1 product-hunt/users--2016-04-01_14-36-26-UTC.csv
+head -n 1 film.csv
 ```
 
 Extract a column of text from a file, using `cut`, skip over first line with `tail`, and then preview first 10 rows with `head`.
