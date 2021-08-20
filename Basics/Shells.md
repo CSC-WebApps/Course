@@ -149,27 +149,23 @@ Using a combination of `cut`, `wc`, `head`, `tail`, `grep`, `sort`, `uniq`, pipe
 
 1. Count the number of columns inside the "users.*.csv" file.
 
-```bash|{type:'command', shell: 'bash', failed_when:"!stdout.includes('14')"}
-head -n 1 product-hunt/users--2016-04-01_14-36-26-UTC.csv | tr ';' '\n'
+```bash|{type:'command', shell: 'bash', failed_when:"!stdout.includes('10')"}
+head -n 1 film.csv | tr ';' '\n'
 ```
 
-2. Count the number of times "bitcoin" is referenced inside a the post's file "tagline" column. Tagline is the 4th column.
+2. Count the number of times "City" is included in the movie title.
 
-```bash|{type:'command', shell: 'bash', failed_when:"!stdout.includes('42')"}
-cut -f 4 -d ';' product-hunt/posts--*.csv | head
+```bash|{type:'command', shell: 'bash', failed_when:"!stdout.includes('7')"}
+cut -f 3 -d ';' film.csv | head
 ```
 
-3. Find the row of post with the highest number of votes (`votes_count`, 7th column).
+3. Find the movie with the greatest popularity
 
 ```bash|{type:'command', shell: 'bash', failed_when:"!stdout.includes('Startup Stash;A curated directory of 400 resources & tools for startups')"}
 # 
 ```
 
 *Warning*: While this can be useful for quick and dirty analysis, for more serious processing, you will want to use a more robust csv parser. For example, using `awk` to count the number of fields (NF) seperated by `;`, we can see, that some data may be incorrect. This is because quoted semi-columns are not being escaped by the bash commands.
-
-```bash|{type:'command', shell: 'bash', failed_when:"!stdout.includes('14')"}
-awk -F';' '{print NF}' product-hunt/users--2016-04-01_14-36-26-UTC.csv | sort | uniq
-```
 
 ### Try on your own
 
