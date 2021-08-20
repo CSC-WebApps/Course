@@ -136,7 +136,7 @@ head -n 1 film.csv
 Extract a column of text from a file, using `cut`, skip over first line with `tail`, and then preview first 10 rows with `head`.
 
 ```bash|{type:'command'}
-cut -f 4 -d ';' product-hunt/users*.csv | tail -n +2 | head 
+cut -f 4 -d ';' film.csv | tail -n +2 | head 
 ```
 
 *Note*: You may notice an error from this last command (`exit code: 141`) or a "write error" message in stderr. This is normal and expected behavior. After processing the first 10 lines of text, `head` will terminate, meaning that output that the previous commands was sending was suddenly closed, resulting in a `SIGPIPE`. If we wanted to make sure that we only received the contents of the file, and not stray warnings, we could redirect only stdout by using `1>`. 
