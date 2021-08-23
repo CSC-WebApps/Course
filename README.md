@@ -16,9 +16,9 @@ Fri 12:50PM - 3:35PM
 |      |
 | 9/10 | JS | Build a simple JQuery library
 |      |
-| 9/17 | Frameworks | Build three webpages in three frameworks
+| 9/17 | Frameworks | Build three webpages in three frameworks (P1)
 |      | 
-| 9/24 | Backend concepts | Build three webpages in three frameworks
+| 9/24 | Backend concepts | Build three webpages in three frameworks (P2)
 |      | 
 | 10/1 | Authenication, Sessions | Build a login webflow
 |      |
