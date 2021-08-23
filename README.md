@@ -13,17 +13,17 @@ Fri 12:50PM - 3:35PM
 | 8/27 | Webpages | Build a static responsive single page application
 |      | _HTML5, DOM, bootstrap, flexbox, css grid_
 | 9/3  | Forms and REST | Build a payment page |
-|      |
-| 9/10 | JS | Build a simple JQuery library
-|      |
-| 9/17 | Frameworks | Build three webpages in three frameworks (P1)
 |      | 
+| 9/10 | JS + DOM | Build a simple JQuery library
+|      | 
+| 9/17 | Frameworks | Build three webpages in three frameworks (P1)
+|      | Mushtache Templates, Angular, React, Vue
 | 9/24 | Backend concepts | Build three webpages in three frameworks (P2)
 |      | 
 | 10/1 | Authenication, Sessions | Build a login webflow
-|      |
+|      | CSFR
 | 10/8 | Animation + Visualization | Build an interactive visualization | 
-|      |
+|      | 
 | 10/15| Websockets    | Build a dashboard |
 |      |
 | 10/22| Audio + Video | Build a Clubhouse space |
