@@ -11,15 +11,15 @@ Fri 12:50PM - 3:35PM
 | 8/20 | Basics | Review shells, markdown, git. | [HW0](HWS/HW0.md)
 |      |
 | 8/27 | Webpages | Build a static responsive single page application
-|      |
+|      | _HTML5, DOM, boostrap, flexbox, css grid_
 | 9/3  | Forms and REST | Build a payment page |
 |      |
 | 9/10 | JS | Build a simple JQuery library
 |      |
 | 9/17 | Frameworks | Build three webpages in three frameworks
-|      |
-| 9/24 | Backend concepts | 
-|      |
+|      | 
+| 9/24 | Backend concepts | Build three webpages in three frameworks
+|      | 
 | 10/1 | Authenication, Sessions | Build a login webflow
 |      |
 | 10/8 | Animation + Visualization | Build an interactive visualization | 
