@@ -21,7 +21,7 @@ Fri 12:50PM - 3:35PM
 | 9/24 | Backend concepts | Build three webpages in three frameworks (P2)
 |      | 
 | 10/1 | Authenication, Sessions | Build a login webflow
-|      | CSFR
+|      | CSFR, oauth, server-side sessions, cookies 
 | 10/8 | Animation + Visualization | Build an interactive visualization | 
 |      | 
 | 10/15| Websockets    | Build a dashboard |
