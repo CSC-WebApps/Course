@@ -10,7 +10,7 @@ Fri 12:50PM - 3:35PM
 | ---  | -------    |  ---      | ---         |
 | 8/20 | Basics | Review shells, markdown, git. | [HW0](HWS/HW0.md)
 |      |
-| 8/27 | Webpages | Build a static responsive single page application
+| 8/27 | Webpages | Build a static responsive landing page
 |      | _HTML5, DOM, bootstrap, flexbox, css grid_
 | 9/3  | Forms and REST | Build a payment page |
 |      | 
