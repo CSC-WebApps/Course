@@ -21,6 +21,38 @@ git remote -v
 git remote set-url origin https://github.ncsu.edu/CSC-WebApps-F21/HW1-<unity>-WebApps
 ```
 
+## HW1 Content
+
+### Conceptual Questions
+
+1. What is the CSS Box Model and why is it important?
+
+### Landing Page
+
+Incorporate the following elements into the design of your landing page:
+
+* Unique Selling Proposition (headline, supporting text)
+* A _hero image_
+* The benefits of your offering.
+* Social proof
+* Lead generation form (call to action)
+
+### Dark Mode Toggle
+
+Add a checkbox that will trigger a dark mode toggle. Use a css filter, such as `filter: invert(100%);`. You may also want to combine with other filter strategies such as `hue`. Ensure images are inverted.
+
+### Github Pages
+
+Publish your site on your repo's Github Pages. Follow the instructions on [Github Pages](../Pages/GithubPages.md).
+
+### Screencast
+
+Create a screencast of for your assignment. In your screencast, cover the following:
+
+> Describe your Landing Page and its elements. Demonstrate your dark mode toggle.
+
+For guidelines, software, and recommendations [see Screencasts](Screencasts.md).
+
 ## Evaluation and Submission
 
 You will be graded for completing the following tasks and meeting the following criteria:
@@ -28,7 +60,7 @@ You will be graded for completing the following tasks and meeting the following 
 * [ ] Conceptual Questions (20)
 * [ ] Incorporate Elements of Landing Page (20)
 * [ ] Page Aesthetics and Quality of Implementation (20) 
-* [ ] Dark Mode with CSS Filter Hack (15)
+* [ ] Dark Mode Toggle with CSS Filter Hack (15)
 * [ ] Publish your site on Github Pages (15)
 * [ ] Screencast (10)
 
