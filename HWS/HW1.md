@@ -4,11 +4,9 @@ This homework will provide practice with essential technology for building a web
 
 **The assignment is due Sunday, Sept 5th, before midnight**.
 
-## Setup
+## Github Repository Setup
 
-#### Prepare your GitHub Repo.
-
-Sign into [NCSU's GitHub](https://github.ncsu.edu/).
+A github repository has been created for you hosted on Github Enterprise. Sign into [NCSU's GitHub](https://github.ncsu.edu/).
 
 1. Confirm your submission repository exists: `https://github.ncsu.edu/CSC-WebApps-F21/HW1-<unity>-WebApps`
 2. **Do not create any content, yet**
@@ -23,10 +21,19 @@ git remote -v
 git remote set-url origin https://github.ncsu.edu/CSC-WebApps-F21/HW1-<unity>-WebApps
 ```
 
-## Evaluation
+## Evaluation and Submission
 
-You will be graded for completing the following tasks:
+You will be graded for completing the following tasks and meeting the following criteria:
 
 * [ ] Conceptual Questions (20)
+* [ ] Incorporate Elements of Landing Page (20)
+* [ ] Page Aesthetics and Quality of Implementation (20) 
+* [ ] Dark Mode with CSS Filter Hack (15)
+* [ ] Publish your site on Github Pages (15)
 * [ ] Screencast (10)
 
+**The assignment is due Sunday, Sept 5th, before midnight**.
+
+Provide your answers to the conceptual questions in the README.md. Include your source files in your main repository branch. Document any information relevant for teaching staff that can be used to assist evaluated your site, and include a link to your screencast in the README.md.
+
+To submit your work, commit and push all changes to your repository and gh-pages branch by the deadline.
