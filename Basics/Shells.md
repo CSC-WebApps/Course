@@ -161,7 +161,7 @@ cut -f 3 -d ';' film.csv | head
 
 3. Find the longest movie.
 
-```bash|{type:'command', failed_when:"!stdout.includes('Holocaust')&&stdout.length>100"} 
+```bash|{type:'command', failed_when:"!stdout.includes('Holocaust')&&stdout.includes("Crash"} 
  
 ```
 
