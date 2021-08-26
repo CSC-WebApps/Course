@@ -27,5 +27,6 @@ git remote set-url origin https://github.ncsu.edu/CSC-WebApps-F21/HW1-<unity>-We
 
 You will be graded for completing the following tasks:
 
+* [ ] Conceptual Questions (20)
 * [ ] Screencast (10)
 
