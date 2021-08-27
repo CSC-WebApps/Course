@@ -25,7 +25,33 @@ git remote set-url origin https://github.ncsu.edu/CSC-WebApps-F21/HW1-<unity>-We
 
 ### Conceptual Questions
 
-1. What is the CSS Box Model and why is it important?
+1. In web development, why "study the timeless"?
+
+2. What is the CSS Box Model and why is it important?
+
+3. Research an additional CSS concept not covered in class and explain an interesting face you learned.
+
+4. Why can using `!important` be problematic?
+
+5. Write a selector that will only select the first li.
+
+   ```html
+   <div>
+     <ul>
+       <li><a href="http://example.com">I am special!</a></li>
+       <li><a href="#">No where</a></li>
+     </ul>
+   ```
+
+6. How might a breadcrumb and navbar be used in the design of a web page.
+
+7. Scenario: A web designer wants to place a series of very small images, side by side, and have them wrap over to the next line if full. Should the images have a `display:inline;` or `display:block;` layout? Why?
+
+8. Compare and contrast "relative" and "absolute" positioning.
+
+9. What benefit does using flexbox layouts have over traditional bootstrap grid layouts.
+
+10. What was an interesting challenge you encountered when designing your landing page? What was the issue and how did you solve it?
 
 ### Landing Page
 
