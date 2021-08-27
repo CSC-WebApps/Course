@@ -10,7 +10,7 @@ Fri 12:50PM - 3:35PM
 | ---  | -------    |  ---      | ---         |
 | 8/20 | Basics | Review shells, markdown, git. | [HW0](HWS/HW0.md)
 |      |
-| 8/27 | 🧱&nbsp;&nbsp;&nbsp;Webpages&nbsp;&nbsp;&nbsp;☢️| Build a static responsive landing page | [HW1](HWS/HW1.md)
+| 8/27 | 🧱&nbsp;&nbsp;&nbsp;[Intro](https://docs.google.com/presentation/d/1mEwLvAKG2htjCLRyaMoOBnyqjKtGapbUHwAacrGdLe4/edit?usp=sharing)+[Webpages](https://docs.google.com/presentation/d/1x95eI8pShNnRPJo3HSc0p2pmKJkuJyURtbHdIWi-vIc/edit#slide=id.ge87ee15146_0_0)&nbsp;&nbsp;&nbsp;☢️| Build a static responsive landing page | [HW1](HWS/HW1.md)
 |      | _HTML5, DOM, bootstrap, flexbox, css grid_
 | 9/3  | 🧾&nbsp;&nbsp;&nbsp;Forms and REST&nbsp;&nbsp;&nbsp;🚀| Build a payment page |
 |      | 
