@@ -17,7 +17,7 @@ Fri 12:50PM - 3:35PM
 | 9/10 | 🧪&nbsp;&nbsp;&nbsp;JS + DOM&nbsp;&nbsp;&nbsp;🎋 | Build a simple JQuery library
 |      | 
 | 9/17 | 🚧&nbsp;&nbsp;&nbsp;Frameworks&nbsp;&nbsp;&nbsp;🏗️ | Build three webpages in three frameworks (P1)
-|      | Mushtache Templates, Angular, React, Vue
+|      | _Mushtache Templates, Angular, React, Vue_
 | 9/24 | 📦&nbsp;&nbsp;&nbsp;Backend concepts&nbsp;&nbsp;&nbsp;🔛 | Build three webpages in three frameworks (P2)
 |      | 
 | 10/1 | 🔐&nbsp;&nbsp;&nbsp;Authenication, Sessions&nbsp;&nbsp;&nbsp;💼 | Build a login webflow
