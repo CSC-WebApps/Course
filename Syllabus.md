@@ -32,8 +32,8 @@ A final exam will cover conceptual knowledge of material covered in lectures as 
 
 | Category           | Weight |
 |--------------------|--------|
-| Homework           | 30%    |
-| Final Exam         | 30%    |
+| Homework           | 35%    |
+| Final Exam         | 25%    |
 | **Final Project**  | 40%    |
 
 The Final Project will be evaluated across multiple milestones.
