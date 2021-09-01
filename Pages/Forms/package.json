@@ -1,0 +1,22 @@
+{
+  "name": "forms",
+  "version": "1.0.0",
+  "description": "Fall 2021   1005  Engineering Building I   Fri 12:50PM - 3:35PM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSC-WebApps/Course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSC-WebApps/Course/issues"
+  },
+  "homepage": "https://github.com/CSC-WebApps/Course#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
