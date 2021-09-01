@@ -33,5 +33,5 @@
 Type, `npm install`.
 Run server with `node index.js`. Submit form... 
 
-```{type: 'terminal'}
+```| {type: 'terminal'}
 ```
