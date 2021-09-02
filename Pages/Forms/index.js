@@ -13,11 +13,17 @@ app.post('/submit-form', (req, res) => {
 })
 
 app.get('/CSC-WebApps/Course/Pages/Forms/Forms.md/env/port/3000', (req, res) => {
-  res.send("hello")
+  res.send("hello from long form")
 })
 
 app.get('/', (req, res) => {
-  res.send("hello")
+  res.send("hello from root")
+})
+
+app.get('/CSC-WebApps/Course/Pages/Forms/Forms.md/env/port/3000/:name', (req, res) => {
+
+  res.send(`hello ${req.params.name}`);
+
 })
 
 
