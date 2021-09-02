@@ -23,7 +23,19 @@
     <input type="submit" />
     </form>
 
+    <button onclick="onbtn">
+    Click Get
+    <button>
+
 </div>
+
+<script>
+function onbtn() {
+fetch('./Forms.md/env/port/3000')
+  .then(response => response.json())
+  .then(data => console.log(data));
+}
+</script>
 
 </body>
 </html>
