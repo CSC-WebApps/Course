@@ -12,7 +12,7 @@ app.post('/submit-form', (req, res) => {
     res.end()
 })
 
-app.post('/', (req, res) => {
+app.post('/CSC-WebApps/Course/Pages/Forms/Forms.md/env/port/3000', (req, res) => {
   const username = req.body.username
   console.log( username );
   res.end()
