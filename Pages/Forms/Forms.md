@@ -1,9 +1,28 @@
 # REST and Forms
 
 
+```|{type: 'playground'}
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="onbtn()">
+    Click Get
+</button>
+
+<script>
+function pressthebutton() {
+    fetch('./Forms.md/env/port/3000/name')
+    .then(response => response.text())
+    .then(data => console.log(data));
+}
+</script>
+</body>
+<html>
+```
 
 
-```html |{type: 'playground'}
+```|{type: 'playground'}
 <!DOCTYPE html>
 <html>
 <head>
