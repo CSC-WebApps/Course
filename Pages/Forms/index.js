@@ -12,6 +12,12 @@ app.post('/submit-form', (req, res) => {
     res.end()
 })
 
+app.post('/', (req, res) => {
+  const username = req.body.username
+  console.log( username );
+  res.end()
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
