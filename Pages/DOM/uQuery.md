@@ -15,14 +15,12 @@ We will be working with this html playground to perform a few tasks.
         <li><a id="third" href="#">Link #3</a></li>
     </ul>
     <p>
-        
-    <p>
-</body>
-
+    </p>
 <script>
-var element = document.getElementById("first");
-element.style.color = "#ff7f50";
-</script>
+    var element = document.getElementById("first");
+    element.style.color = "#ff7f50";
+</script>    
+</body>
 </html>
 ```
 
