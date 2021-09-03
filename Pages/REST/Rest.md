@@ -122,7 +122,7 @@ Install require packages with `npm install`.
 To start the server: `npm run start`.  
 To stop the server: `npm run stop`.
 
-When you've created your implementation, you
+When you've created your implementation, you can test with the above `curl` commands.
 
 ```| {type:'terminal'}
 ```
