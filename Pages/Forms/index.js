@@ -12,25 +12,12 @@ app.post('/submit-form', (req, res) => {
     res.end()
 })
 
-app.get('/CSC-WebApps/Course/Pages/Forms/Forms.md/env/port/3000', (req, res) => {
-  res.send("hello from long form")
-})
-
 app.get('/', (req, res) => {
-  res.send("hello from root")
+  res.send("hello")
 })
 
-app.get('/CSC-WebApps/Course/Pages/Forms/Forms.md/env/port/3000/:name', (req, res) => {
-
+app.get('/users/:name', (req, res) => {
   res.send(`hello ${req.params.name}`);
-
-})
-
-
-app.post('/CSC-WebApps/Course/Pages/Forms/Forms.md/env/port/3000', (req, res) => {
-  const username = req.body.username
-  console.log( username );
-  res.end()
 })
 
 app.listen(port, () => {
