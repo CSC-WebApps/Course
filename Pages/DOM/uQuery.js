@@ -9,10 +9,10 @@ function u(selector) {
         return this;
     }
 
-    this.value()
+    this.value = () =>
     {
         return "hello";
     }
-
+    
     return this;
 }
