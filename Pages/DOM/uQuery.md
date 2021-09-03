@@ -35,7 +35,15 @@ We will be working with this html playground to perform a few tasks.
 const links = document.getElementsByTagName('td');
 ```
 
+3. Query selector fun?
 
+```js
+document.querySelector("ul > li")
+```
+
+```js
+document.querySelectorAll("ul > li")[0]
+```
 
 ## uQuery
 
