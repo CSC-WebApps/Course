@@ -57,7 +57,12 @@ function u(selector) {
         return this;
     }
 
-    this.value()
+    this.append = () => {
+        
+        return this;
+    }
+
+    this.value = () =>
     {
         return "hello";
     }
