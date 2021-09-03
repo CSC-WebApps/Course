@@ -5,8 +5,13 @@ function u(selector) {
     }
 
     this.css = () => {
-        
+
         return this;
+    }
+
+    this.val()
+    {
+        return "hello";
     }
 
     return this;
