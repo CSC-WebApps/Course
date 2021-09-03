@@ -9,7 +9,7 @@ app.use(express.urlencoded({
 app.post('/submit-form', (req, res) => {
     const username = req.body.username
     console.log( username );
-    res.end()
+    res.redirect('#');
 })
 
 app.get('/', (req, res) => {
