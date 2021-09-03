@@ -64,13 +64,14 @@ const links = document.getElementsByTagName('td');
 ```js |{type: 'file', path: '/Course/Pages/DOM/uQuery.js'}
 function u(selector) {
 
+    this.element = document.getElementsByTagName(selector);
+
     this.first = () => {
-        this.element = document.getElementById("first");
-        return this;
-    }
 
-    this.css = () => {
-
+        if( this.element.children.length > 0 )
+        {
+            this.element = this.element.children[0];
+        }
         return this;
     }
 
@@ -80,11 +81,6 @@ function u(selector) {
         this.element.appendChild( div );
         this.element = div;        
         return this;
-    }
-
-    this.value = () =>
-    {
-        return "hello";
     }
 
     return this;
