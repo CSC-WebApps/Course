@@ -39,5 +39,23 @@ const links = document.getElementsByTagName('td');
 ## uQuery
 
 
+```js |{type: 'file', path: '/Course/Pages/DOM/uQuery.js'}
+function u(selector) {
 
+    this.first = () => {
+        return this;
+    }
 
+    this.css = () => {
+
+        return this;
+    }
+
+    this.val()
+    {
+        return "hello";
+    }
+
+    return this;
+}
+```
