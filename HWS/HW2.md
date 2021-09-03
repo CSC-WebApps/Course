@@ -20,7 +20,7 @@ Incorporate the following elements into the implementation of your payment servi
 
 ![wolfmo](imgs/wolfmo.png)
 
-* A search user function.
+* A search user function (or populate dropdown with all users).
 * An upload file function.
 * An payment form.
 * A node.js application providing functionality REST endpoints.

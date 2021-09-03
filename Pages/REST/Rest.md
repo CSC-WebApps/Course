@@ -4,7 +4,7 @@ A very brief overview on REST APIs:
 
 A *RESTful architecture*, is an architectural style ([Fielding](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)) for providing resources to clients using a set of request verbs and resource locations. A REST API allows a client to access resources provided by a service.
 
-A useful [workshop on using the GitHub REST APIs](https://raw.githubusercontent.com/CSC-510/REST) can be done for more practice.
+A useful [workshop on using the GitHub REST APIs](https://github.com/CSC-510/REST) can be done for more practice.
 
 ### Concepts
 
