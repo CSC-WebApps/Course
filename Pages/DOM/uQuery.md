@@ -24,7 +24,9 @@ We will be working with this html playground to perform a few tasks.
 </html>
 ```
 
-1. Update the example to select the second id, and then the third id. Observe the color of the anchor link change.
+1. Update the example to select the second id, and then the third id.  
+
+   👀 _Observe the color of the anchor link change._
 
 2. const links = document.getElementsByTagName('td');
 
