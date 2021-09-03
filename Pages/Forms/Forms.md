@@ -48,13 +48,28 @@ function pressthebutton() {
 
     <div class="row p-5">
         <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-secondary">Left</button>
-            <button type="button" class="btn btn-secondary">Middle</button>
+            <button type="button" class="btn btn-secondary" onclick="getUsers()">Get Users</button>
+            <button type="button" class="btn btn-secondary" onclick="getUser()">Get User</button>
             <button type="button" class="btn btn-secondary">Right</button>
+        </div>
+        <div id="console" class="bg-dark text-light">
         </div>
     </div>
 
   </div>
+  <script>
+      function getUsers() {
+        fetch('./Forms.md/env/port/3000/users/')
+            .then(response => response.text())
+            .then(data => $('#console').append(data));
+      }
+      function getUser() {
+        fetch('./Forms.md/env/port/3000/users/alice')
+            .then(response => response.text())
+            .then(data => $('#console').append(data));
+      }
+
+  </script>
 </body>
 </html>
 ```

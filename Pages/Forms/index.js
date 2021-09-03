@@ -16,6 +16,10 @@ app.get('/', (req, res) => {
   res.send("hello")
 })
 
+app.get('/users/', (req, res) => {
+  res.send(`hello users`);
+})
+
 app.get('/users/:name', (req, res) => {
   res.send(`hello ${req.params.name}`);
 })
