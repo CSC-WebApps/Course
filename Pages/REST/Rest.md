@@ -44,7 +44,6 @@ In a browser, visit http://httpbin.org/
 
 Open the developer's tool console (in your Web browser) and execute this code inside of the console.
 
-*Note:* If you try this same code from a different page, you'll get a Cross-Origin Resource Sharing (CORS) error.
 
 ```Javascript
 fetch("https://httpbin.org/anything")
