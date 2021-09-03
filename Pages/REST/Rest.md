@@ -74,6 +74,8 @@ curl --request PUT -H "Content-Type: application/json" --data '{"coffee":1,"milk
 
 ### Practice: Nonce
 
+Edit the following router file.
+
 ```javascript | {type: 'file', path: 'router.js'}
 const express = require('express');
 const router = express.Router();
