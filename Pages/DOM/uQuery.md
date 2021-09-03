@@ -53,7 +53,7 @@ const links = document.getElementsByTagName('td');
     </p>
 <script src="./uQuery.md/env/files/uQuery.js"></script>
 <script>
-    u().first().append('<span>Hello</span>')
+    u('ul').first().append('<span>Hello</span>')
 </script>
 
 </body>
