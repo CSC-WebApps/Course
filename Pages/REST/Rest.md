@@ -70,3 +70,28 @@ curl --request PUT -H "Content-Type: application/json" --data '{"coffee":1,"milk
 
 ```| {type: 'terminal'}
 ```
+
+
+### Practice: Nonce
+
+```javascript | {type: 'file', path: 'router.js'}
+const express = require('express');
+const router = express.Router();
+
+var requests = {};
+
+
+router.get('/', (req, res) => res.send('Hello World!'))
+router.post('/', function (req, res) {
+
+    let id = Math.random().toString(36).substring(2);
+    res.send(`Request ${id}. Received object. ${JSON.stringify(req.body)}`);
+
+});
+
+module.exports = router;
+```
+
+
+```| {type:'terminal'}
+```
