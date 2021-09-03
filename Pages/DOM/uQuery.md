@@ -19,9 +19,6 @@ We will be working with this html playground to perform a few tasks.
 <script>
     var element = document.getElementById("first");
     element.style.color = "#ff7f50";
-
-    console.log( u().first().value())
-
 </script>    
 
 </body>
@@ -68,6 +65,7 @@ const links = document.getElementsByTagName('td');
 function u(selector) {
 
     this.first = () => {
+        this.element = document.getElementById("first");
         return this;
     }
 
@@ -77,10 +75,10 @@ function u(selector) {
     }
 
     this.append = () => {
-        let div = document.createElement("span")
-        div.append("Hello")
-        this.element = div;
-        
+        let div = document.createElement("span");
+        div.append("Hello");
+        this.element.appendChild( div );
+        this.element = div;        
         return this;
     }
 

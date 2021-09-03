@@ -1,6 +1,7 @@
 function u(selector) {
 
     this.first = () => {
+        this.element = document.getElementById("first");
         return this;
     }
 
@@ -10,10 +11,10 @@ function u(selector) {
     }
 
     this.append = () => {
-        let div = document.createElement("span")
-        div.append("Hello")
-        this.element = div;
-        
+        let div = document.createElement("span");
+        div.append("Hello");
+        this.element.appendChild( div );
+        this.element = div;        
         return this;
     }
 
