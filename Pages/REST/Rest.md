@@ -1,12 +1,10 @@
-## REST Refresher
+# REST
 
 A very brief overview on REST APIs:
 
 A *RESTful architecture*, is an architectural style ([Fielding](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)) for providing resources to clients using a set of request verbs and resource locations. A REST API allows a client to access resources provided by a service.
 
-A useful [workshop on using the GitHub REST APIs](https://github.com/CSC-510/REST) can be done for more practice.
-
-### Concepts
+## Concepts
 
 The goal of REST APIs is to provide painless communication and interoperability between applications and services. REST APIs typically allow (often with some sort of authentication) a manipulation of the various types of entities associated with a service.
 
@@ -72,7 +70,7 @@ curl --request PUT -H "Content-Type: application/json" --data '{"coffee":1,"milk
 ```
 
 
-### Practice: Nonce
+## Practice: Nonce
 
 Nonce: Create a simple one-time sharing service
 
