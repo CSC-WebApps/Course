@@ -74,7 +74,32 @@ curl --request PUT -H "Content-Type: application/json" --data '{"coffee":1,"milk
 
 ### Practice: Nonce
 
-Edit the following router file.
+Nonce: Create a simple one-time sharing service
+
+* `POST` an json object to `/share/`. Return an url with unique retrieval id
+* `GET` the given `/:<id>`. Retrieve the object. Further updates should return an error.
+* `DELETE` the given `/:<id>`.
+
+You should be able to test your code using the following sequences of commands.
+
+```bash
+# Post content to server. Service returns retrieval link.
+$ curl --request POST -H "Content-Type: application/json" --data '{"coffee":1,"milk":1,"sugar":1,"chocolate":1}' http://localhost:3000/share 
+{"success":true,"link":"http://localhost:3000/pgiPc2"}
+
+# Retrieve content
+$ curl http://localhost:3000/pgiPc2 
+{"coffee":1,"milk":1,"sugar":1,"chocolate":1}
+
+# A second read will result in "Not Found" message.
+$ curl http://localhost:3000/pgiPc2 
+{"success":false,"error":404,"message":"Not Found"}
+
+# Directly delete content
+$ curl --request DELETE http://localhost:3000/pgiPc2 
+```
+
+The extend the following router to implement the endpoints.
 
 ```javascript | {type: 'file', path: '/Course/Pages/REST/router.js'}
 const express = require('express');
@@ -94,6 +119,12 @@ router.post('/', function (req, res) {
 module.exports = router;
 ```
 
+Install require packages with `npm install`.  
+
+To start the server: `npm run start`.  
+To stop the server: `npm run stop`.
+
+When you've created your implementation, you
 
 ```| {type:'terminal'}
 ```
