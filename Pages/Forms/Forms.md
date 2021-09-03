@@ -1,5 +1,44 @@
 # REST and Forms
 
+Type, `npm install`.
+Run server with `node index.js`. Submit form... 
+
+```| {type: 'terminal'}
+```
+
+
+### Test Post
+
+```html |{type: 'playground'}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+<div class="w-50 mx-auto my-5">
+
+    <h1 style="background-color:DodgerBlue;">Hello World</h1>
+
+    <p style="background-color:Tomato;">
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+    </p>
+
+    <form method="POST" action="./Forms.md/env/port/3000/submit-form">
+        <input type="text" name="username" />
+        <input type="submit" />
+    </form>
+</div>
+</body>
+</html>
+
+```
+
+### Test gets
+
 
 ```html |{type: 'playground'}
 <!DOCTYPE html>
@@ -77,50 +116,3 @@ function pressthebutton() {
 
 
 
-```html |{type: 'playground'}
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
-
-<body>
-
-<div class="w-50 mx-auto my-5">
-
-    <h1 style="background-color:DodgerBlue;">Hello World</h1>
-
-    <p style="background-color:Tomato;">
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-    </p>
-
-    <form method="POST" action="./Forms.md/env/port/3000">
-    <input type="text" name="username" />
-    <input type="submit" />
-    </form>
-
-    <button onclick="onbtn()">
-    Click Get
-    </button>
-
-</div>
-
-<script>
-function onbtn() {
-fetch('./Forms.md/env/port/3000')
-  .then(response => response.json())
-  .then(data => console.log(data));
-}
-</script>
-
-</body>
-</html>
-
-```
-
-Type, `npm install`.
-Run server with `node index.js`. Submit form... 
-
-```| {type: 'terminal'}
-```
