@@ -1,4 +1,4 @@
-# Forms and Basic JQuery
+# Forms
 
 Type, `npm install`.
 Run server with `node index.js`. Submit form... 
