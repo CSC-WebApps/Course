@@ -1,8 +1,8 @@
 # DOM
 
-## Finding an element by id
+## Finding an element by id, tags
 
-
+We will be working with this html playground to perform a few tasks.
 
 ```html |{type: 'playground'}
 <!DOCTYPE html>
@@ -14,6 +14,9 @@
         <li><a id="second" href="#">Link #2</a></li>
         <li><a id="third" href="#">Link #3</a></li>
     </ul>
+    <p>
+        
+    <p>
 </body>
 
 <script>
@@ -22,6 +25,11 @@ element.style.color = "#ff7f50";
 </script>
 </html>
 ```
+
+1. Update the example to select the second id, and then the third id. Observe the color of the anchor link change.
+
+2. const links = document.getElementsByTagName('td');
+
 
 
 
