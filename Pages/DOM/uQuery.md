@@ -16,8 +16,6 @@ We will be working with this html playground to perform a few tasks.
     </ul>
     <p>
     </p>
-<script src="./uQuery.md/env/files/uQuery.js" />
-</script>
 <script>
     var element = document.getElementById("first");
     element.style.color = "#ff7f50";
@@ -43,6 +41,27 @@ const links = document.getElementsByTagName('td');
 
 
 ## uQuery
+
+```html |{type: 'playground'}
+<!DOCTYPE html>
+<html>
+
+<body>
+    <ul>
+        <li><a id="first" href="#" >Link #1</a></li>
+        <li><a id="second" href="#">Link #2</a></li>
+        <li><a id="third" href="#">Link #3</a></li>
+    </ul>
+    <p>
+    </p>
+<script src="./uQuery.md/env/files/uQuery.js" />
+<script>
+    u().first().append('<span>Hello</span>')
+</script>
+
+</body>
+</html>
+```
 
 
 ```js |{type: 'file', path: '/Course/Pages/DOM/uQuery.js'}
