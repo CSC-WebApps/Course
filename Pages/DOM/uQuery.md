@@ -43,6 +43,8 @@ document.querySelector("ul > li")
 
 ```js
 document.querySelectorAll("ul > li")[0]
+
+document.querySelectorAll("ul > li:first-child")
 ```
 
 ## uQuery
