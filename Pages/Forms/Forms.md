@@ -1,4 +1,4 @@
-# REST and Forms
+# Forms and Basic JQuery
 
 Type, `npm install`.
 Run server with `node index.js`. Submit form... 
@@ -29,28 +29,6 @@ Run server with `node index.js`. Submit form...
 </html>
 ```
 
-### Test gets
-
-
-```html |{type: 'playground'}
-<!DOCTYPE html>
-<html>
-<body>
-
-<button onclick="pressthebutton()">
-    Click Get
-</button>
-
-<script>
-function pressthebutton() {
-    fetch('./Forms.md/env/port/3000/name')
-    .then(response => response.text())
-    .then(data => console.log(data));
-}
-</script>
-</body>
-<html>
-```
 
 ### Users test...
 
