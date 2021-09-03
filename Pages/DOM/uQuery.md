@@ -80,7 +80,7 @@ function u(selector) {
 
         if( this.element.children.length > 0 )
         {
-            this.element = this.element.children[0];
+            this.element = this.element[0].children[0];
         }
         return this;
     }
