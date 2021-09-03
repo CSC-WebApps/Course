@@ -44,12 +44,14 @@ function pressthebutton() {
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
   <!-- your content here... -->
-  <div class="container" >
+  <div class="container">
 
-    <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-secondary">Left</button>
-        <button type="button" class="btn btn-secondary">Middle</button>
-        <button type="button" class="btn btn-secondary">Right</button>
+    <div class="row p-5">
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary">Left</button>
+            <button type="button" class="btn btn-secondary">Middle</button>
+            <button type="button" class="btn btn-secondary">Right</button>
+        </div>
     </div>
 
   </div>
