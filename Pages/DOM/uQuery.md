@@ -77,6 +77,9 @@ function u(selector) {
     }
 
     this.append = () => {
+        let div = document.createElement("span")
+        div.append("Hello")
+        this.element = div;
         
         return this;
     }
