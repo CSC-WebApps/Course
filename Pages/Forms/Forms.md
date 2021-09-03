@@ -17,16 +17,9 @@ Run server with `node index.js`. Submit form...
 </head>
 
 <body>
+<script   src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
 
 <div class="w-50 mx-auto my-5">
-
-    <h1 style="background-color:DodgerBlue;">Hello World</h1>
-
-    <p style="background-color:Tomato;">
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-    </p>
-
     <form method="POST" action="./Forms.md/env/port/3000/submit-form">
         <input type="text" name="username" />
         <input type="submit" />
@@ -34,7 +27,6 @@ Run server with `node index.js`. Submit form...
 </div>
 </body>
 </html>
-
 ```
 
 ### Test gets
