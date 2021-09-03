@@ -21,7 +21,7 @@ Incorporate the following elements into the implementation of your payment servi
 ![wolfmo](imgs/wolfmo.png)
 
 * A search user function (or populate dropdown with all users).
-* An upload file function.
+* An upload file function. See [two approaches for implementing file preview](https://www.tutorialspoint.com/preview-an-image-before-it-is-uploaded-in-javascript).
 * An payment form.
 * A node.js application providing functionality REST endpoints.
 * After clicking `Pay`, redirect to submission page showing information received by server.
