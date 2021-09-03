@@ -28,8 +28,11 @@ We will be working with this html playground to perform a few tasks.
 
    👀 _Observe the color of the anchor link change._
 
-2. const links = document.getElementsByTagName('td');
+2. Find the paragraph tag. 
 
+```
+const links = document.getElementsByTagName('td');
+```
 
 
 
