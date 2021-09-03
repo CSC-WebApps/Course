@@ -16,10 +16,16 @@ We will be working with this html playground to perform a few tasks.
     </ul>
     <p>
     </p>
+<script src="./uQuery.md/env/files/uQuery.js" />
+</script>
 <script>
     var element = document.getElementById("first");
     element.style.color = "#ff7f50";
+
+    console.log( u().first().value())
+
 </script>    
+
 </body>
 </html>
 ```
@@ -51,7 +57,7 @@ function u(selector) {
         return this;
     }
 
-    this.val()
+    this.value()
     {
         return "hello";
     }
