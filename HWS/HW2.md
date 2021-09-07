@@ -14,6 +14,23 @@ Confirm your submission repository exists: `https://github.ncsu.edu/CSC-WebApps-
 
 ### Conceptual Questions
 
+1. What is the purpose of a REST api? What are some benefits and drawbacks?
+
+2. For the given express route, what would be a valid `curl` request? What would it return?
+
+   ```js
+   app.get('/users/:id/friends', (req, res) => {
+       let user = db.find(req.params.id);
+       res.send( user.friends );
+   }
+   ```
+
+3. What is the difference between a form submitting data with `application/x-www-form-urlencoded` vs. `application/json`?
+
+4. After form submission, the response body is expected to ________________________.
+
+5. What was an interesting challenge you encountered when implementing your payment form? What was the issue and how did you solve it?
+
 ### WolfMo
 
 Incorporate the following elements into the implementation of your payment service:
@@ -24,7 +41,11 @@ Incorporate the following elements into the implementation of your payment servi
 * An upload file function. See [two approaches for implementing file preview](https://www.tutorialspoint.com/preview-an-image-before-it-is-uploaded-in-javascript).
 * An payment form.
 * A node.js application providing functionality REST endpoints.
-* After clicking `Pay`, redirect to submission page showing information received by server.
+* After clicking `Pay`, redirect to submission page showing information received by server, including:
+   - Receiver
+   - Uploaded image
+   - Dollar amount,
+   - Last 4 digits of credit card information and expiration date.
 
 ### Screencast
 
