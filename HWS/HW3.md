@@ -33,7 +33,7 @@ You will be graded for completing the following tasks and meeting the following 
 * [ ] ??? (30)
 * [ ] Screencast (10)
 
-**The assignment is due Sunday, Sept 12th, before midnight**.
+**The assignment is due Sunday, Sept 19th, before midnight**.
 
 Provide your answers to the conceptual questions in the README.md. Include your source files in your main repository branch. Document any information relevant for teaching staff that can be used to assist evaluated your submission, and include a link to your screencast in the README.md.
 
