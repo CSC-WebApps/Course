@@ -12,7 +12,7 @@ Fri 12:50PM - 3:35PM
 |      |
 | 8/27 | 🧱&nbsp;&nbsp;&nbsp;[Intro](https://docs.google.com/presentation/d/1mEwLvAKG2htjCLRyaMoOBnyqjKtGapbUHwAacrGdLe4/edit?usp=sharing)+[Webpages](https://docs.google.com/presentation/d/1x95eI8pShNnRPJo3HSc0p2pmKJkuJyURtbHdIWi-vIc/edit#slide=id.ge87ee15146_0_0)&nbsp;&nbsp;&nbsp;☢️| Build a static responsive landing page | [HW1](HWS/HW1.md)
 |      | _HTML5, DOM, bootstrap, flexbox, css grid_
-| 9/3  | 🧾&nbsp;&nbsp;&nbsp;Forms and REST&nbsp;&nbsp;&nbsp;🚀| Build a payment page |
+| 9/3  | 🧾&nbsp;&nbsp;&nbsp;[REST](https://342.docable.cloud/CSC-WebApps/Course/Pages/REST/Rest.md) and [Forms](https://342.docable.cloud/CSC-WebApps/Course/Pages/Forms/Forms.md)&nbsp;&nbsp;&nbsp;🚀| Build a payment page | [HW2](HWS/HW2.md)
 |      | 
 | 9/10 | 🧪&nbsp;&nbsp;&nbsp;JS + DOM&nbsp;&nbsp;&nbsp;🎋 | Build a simple JQuery library
 |      | 
