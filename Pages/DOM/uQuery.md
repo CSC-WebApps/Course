@@ -31,11 +31,13 @@ We will be working with this html playground to perform a few tasks.
 
 2. Find the paragraph tag. 
 
-```
-const links = document.getElementsByTagName('td');
+Example using `.getElementsByTagName()`.
+
+```js
+const links = document.getElementsByTagName('a');
 ```
 
-3. Query selector fun?
+3. Using the query selector, select all li elements and set the `font-size: 200%;`
 
 ```js
 document.querySelector("ul > li")
