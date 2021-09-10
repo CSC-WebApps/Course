@@ -4,23 +4,37 @@ This homework will provide practice with essential technology for dynamically up
 
 **The assignment is due Sunday, Sept 19th, before midnight**.
 
-### Conceptual Questions
-
-1. Why not simple string return.
-2. Client-side vs server-side rendering.
-3. some queries.
-4. 5
-
-
 ### uQuery
 
-### ???
+Provide your answers from the in-class exercise.
+
+### Packumble
+
+Update the packumble application to complete missing functionality.
+
+1. Fill in user name in `'s Matches`.
+
+2. Complete the `createCard()` function. Add the card to the page.
+
+3. Complete the swipeleft click function. After the swipe left animation completes, call `/no` in the backend to remove card, and then call `/see` to load next card.
+
+4. Complete the swiperight click function. Call `/trymatch` to check if there is a match. If there is a match, add the `.fire` class to the card. If there is no match, add the `.swiperight` class to the card. When no match, after the transition ends (`transitionend` event), remove the card. 
+
+5. Inside the swiperight click function, when the match animation completes (`animationend` event), add the card to the match area. 
+
+6. Inside the swiperight click function, when the match animation completes, add the email information to the back side of card (available as a field on the `/trymatch` response body). 
+
+7. For matched cards, add a click event to toggle `is-flipped`, allowing the email to be viewable.
+
+_Bonus_: +10 Update the match animation to use a different effect.
+
+> You are free to update the application as needed in order to meet the required functionality.
 
 ### Screencast
 
 Create a screencast of for your assignment. In your screencast, cover the following:
 
-> *TODO*
+> Demonstrate using your packumble application, including your completed functionality.
 
 For guidelines, software, and recommendations [see Screencasts](Screencasts.md).
 
@@ -28,9 +42,8 @@ For guidelines, software, and recommendations [see Screencasts](Screencasts.md).
 
 You will be graded for completing the following tasks and meeting the following criteria:
 
-* [ ] Conceptual Questions (30)
-* [ ] uQuery (30)
-* [ ] ??? (30)
+* [ ] uQuery exercises (20)
+* [ ] ??? (70)
 * [ ] Screencast (10)
 
 **The assignment is due Sunday, Sept 19th, before midnight**.
