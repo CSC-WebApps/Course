@@ -63,7 +63,7 @@ document.querySelectorAll("ul > li:first-child")
     </p>
 <script src="./uQuery.md/env/files/uQuery.js"></script>
 <script>
-    u('ul').first().append('<span>Hello</span>')
+    u('ul').first().append('Hello')
 </script>
 
 </body>
@@ -74,22 +74,15 @@ document.querySelectorAll("ul > li:first-child")
 ```js |{type: 'file', path: '/Course/Pages/DOM/uQuery.js'}
 function u(selector) {
 
-    this.element = document.getElementsByTagName(selector);
+    this.element = [];
 
     this.first = () => {
 
-        if( this.element.children.length > 0 )
-        {
-            this.element = this.element[0].children[0];
-        }
         return this;
     }
 
     this.append = () => {
-        let div = document.createElement("span");
-        div.append("Hello");
-        this.element.appendChild( div );
-        this.element = div;        
+   
         return this;
     }
 

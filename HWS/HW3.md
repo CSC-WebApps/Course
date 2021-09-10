@@ -43,7 +43,7 @@ For guidelines, software, and recommendations [see Screencasts](Screencasts.md).
 You will be graded for completing the following tasks and meeting the following criteria:
 
 * [ ] uQuery exercises (20)
-* [ ] ??? (70)
+* [ ] Packumble (70)
 * [ ] Screencast (10)
 
 **The assignment is due Sunday, Sept 19th, before midnight**.
