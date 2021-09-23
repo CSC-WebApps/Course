@@ -1,6 +1,6 @@
-# HW3
+# HW4
 
-This homework will provide practice with essential technology for dynamically updating a webpage, with a focus on understanding javascript and DOM.
+This homework will provide practice with common frameworks for building rich client applications, with a focus on understanding differences and commonalities in frameworks.
 
 **The assignment is due Sunday, Oct 3rd, before midnight**.
 
