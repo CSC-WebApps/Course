@@ -16,8 +16,8 @@ Fri 12:50PM - 3:35PM
 |      | 
 | 9/10 | 🧪&nbsp;&nbsp;&nbsp;[History](https://docs.google.com/presentation/d/1QnmLH8ZJ6WVMiIfNLdQIko0dcZpyLYsZPQDjgiHzKGw/edit#slide=id.gecbc12aec0_0_0); JS + DOM&nbsp;&nbsp;&nbsp;🎋 | [Build a simple JQuery library](https://342.docable.cloud/CSC-WebApps/Course/Pages/DOM/uQuery.md) | [HW3](HWS/HW3.md)
 |      | 
-| 9/24 | 🚧&nbsp;&nbsp;&nbsp;Frameworks&nbsp;&nbsp;&nbsp;🏗️ | Build three webpages in three frameworks (P1)
-|      | _Mushtache Templates, Angular, React, Vue_ | [M0](Project/M0.md)
+| 9/24 | 🚧&nbsp;&nbsp;&nbsp;Frameworks&nbsp;&nbsp;&nbsp;🏗️ | Build three webpages in three frameworks (P1) | [M0](Project/M0.md)
+|      | _Mushtache Templates, Angular, React, Vue_ | 
 | 10/1 | 📦&nbsp;&nbsp;&nbsp;Backend concepts&nbsp;&nbsp;&nbsp;🔛 | Build three webpages in three frameworks (P2)
 |      | 
 | 10/8 | 🔐&nbsp;&nbsp;&nbsp;Authenication, Sessions&nbsp;&nbsp;&nbsp;💼 | Build a login webflow
