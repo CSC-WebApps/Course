@@ -21,6 +21,7 @@ TaskPop works as the following:
 
 * Add task(s) with a short task description and due date.
 * If any task exists, one is randomly selected and displayed in the task card area.
+* If the current date has exceeded the due date, color the text of the task's due date red.
 * **Complete**: Mark a task complete, remove from list, and update number of completed tasks.
 * **Discard**: Delete task from list. The number of completed tasks is not updated.
 * **Shuffle**: Replace task with another random task in list.
