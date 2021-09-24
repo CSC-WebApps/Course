@@ -6,6 +6,7 @@ This homework will provide practice with common frameworks for building rich cli
 
 ## Class exercise
 
+Include your in-class madlib pitch and in-class wireframe. If you worked with partners on exercise, include all participants and unity ids.
 
 ## Implement application in two frameworks.
 
