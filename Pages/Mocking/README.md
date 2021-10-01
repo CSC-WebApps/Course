@@ -8,7 +8,7 @@ Run `npm install`.
 
 Run script with `node main.js`.
 
-```js | {type: 'file', path: 'main.js'}
+```js | {type: 'file', path: '/Course/Pages/Mocking/main.js'}
 const _ = require("underscore");
 const analytics = require("./github.js");
 
