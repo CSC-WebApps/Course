@@ -10,7 +10,7 @@ Run script with `node main.js`.
 
 ```js | {type: 'file', path: '/Course/Pages/Mocking/main.js'}
 const _ = require("underscore");
-const analytics = require("./github.js");
+const github = require("./github.js");
 
 // Load mock instance
 const github_mock_services = require('./github_mock');
