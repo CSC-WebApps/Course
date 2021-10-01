@@ -1,0 +1,16 @@
+{
+  "name": "mocking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "got": "^11.8.2",
+    "nock": "^13.1.3",
+    "underscore": "^1.13.1"
+  }
+}
