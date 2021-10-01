@@ -28,8 +28,7 @@ async function getIssues(owner, repo) {
 		headers: {
 			"content-type": "application/json",
 			"Authorization": token
-		},
-		json: true
+		}
 	};
 
 	// Send a http request to url
