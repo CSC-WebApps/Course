@@ -32,7 +32,7 @@ async function getIssues(owner, repo) {
 	};
 
 	// Send a http request to url
-	let issues = (await got(url, options)).json();
+	let issues = await got(url, options).json();
 	return issues;
 }
 
