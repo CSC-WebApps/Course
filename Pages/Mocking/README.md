@@ -6,9 +6,9 @@ Run `npm install`.
 ```| {type: 'terminal'}
 ```
 
-Run script.
+Run script with `node main.js`.
 
-```js | {type: 'script'}
+```js | {type: 'file', path: 'main.js'}
 const _ = require("underscore");
 const analytics = require("./github.js");
 
