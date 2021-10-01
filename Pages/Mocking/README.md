@@ -6,7 +6,7 @@ Run `npm install`.
 ```| {type: 'terminal'}
 ```
 
-Run script with `node main.js`.
+Run script with `node main.js`. Comment out the mock and run again.
 
 ```js | {type: 'file', path: '/Course/Pages/Mocking/main.js'}
 const _ = require("underscore");
