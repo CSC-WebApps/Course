@@ -25,6 +25,11 @@ async function findMostFrequentAssignee(user, repo) {
 	return { userName: max, count: frequency[max] };
 }
 
-let result = await findMostFrequentAssignee("testuser", "Hello-World");
-console.log(result);
+(async() => {
+
+	let result = await findMostFrequentAssignee("testuser", "Hello-World");
+	console.log(result);
+
+})()
+
 ```
