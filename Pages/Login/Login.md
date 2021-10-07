@@ -14,14 +14,16 @@ Run server with `node index.js`. Submit form...
 </head>
 
 <body>
-<script   src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
-
-<div class="w-50 mx-auto my-5">
-    <form method="POST" action="./Forms.md/env/port/3000/submit-form">
-        <input type="text" name="username" />
-        <input type="submit" />
+    <form action="/user" method="post">
+        <h2>Login</h2>
+        <div class="input-field">
+            <input type="text" name="username" id="username" placeholder="Enter Username">
+        </div>
+        <div class="input-field">
+            <input type="password" name="password" id="password" placeholder="Enter Password">
+        </div>
+        <input type="submit" value="LogIn">
     </form>
-</div>
 </body>
 </html>
 ```
