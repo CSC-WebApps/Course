@@ -180,6 +180,14 @@ If we managed to steal a cookie, we can perform a Cross-site request forgery (CS
 curl -s localhost:3000/secret
 ```
 
+### Securing cookies
+
+Signing cookies, transporting only over https, setting [HttpOnly](https://owasp.org/www-community/HttpOnly), and setting SameSite.
+
+* **sameSite**: a boolean or string indicating whether the cookie is a “same site” cookie (false by default). This can be set to 'strict', 'lax', 'none', or true (which maps to 'strict').
+* **secure**: a boolean indicating whether the cookie is only to be sent over HTTPS (false by default for HTTP, true by default for HTTPS). If this is set to true and Node.js is not directly over a TLS connection, be sure to read how to setup Express behind proxies or the cookie may not ever set correctly.
+* **httpOnly**: a boolean indicating whether the cookie is only to be sent over HTTP(S), and not made available to client JavaScript (true by default).
+* **signed**: a boolean indicating whether the cookie is to be signed (true by default).
 
 
 ### Using CSRF Protection Tokens
