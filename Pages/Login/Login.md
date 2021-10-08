@@ -176,6 +176,8 @@ uuidv4(); // ⇨ '1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed'
 
 If we managed to steal a cookie, we can perform a [Cross-site request forgery (CSRF) attack](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html#Double_Submit_Cookie).
 
+> A CSRF attack works because browser requests automatically include all cookies including session cookies. Therefore, if the user is authenticated to the site, the site cannot distinguish between legitimate authorized requests and forged authenticated requests. This attack is thwarted when proper Authorization is used, which implies that a challenge-response mechanism is required that verifies the identity and authority of the requester.
+
 ```bash | {type: 'command', failed_when:"exitCode!=0"}
 curl -s localhost:3000/secret
 ```
@@ -265,3 +267,21 @@ router.post('/', function(req, res, next) {
 });
 ```
 
+### Hashing password
+
+Never store plain-text passwords, only store their hash.
+
+To store password, use secure hashing algorithm.
+
+```js
+const bcrypt = require("bcrypt");
+const salt = await bcrypt.genSalt(10);
+// now we set user password to hashed password
+let hash = await bcrypt.hash(user.password, salt);
+```
+
+To check password, compare hashes:
+
+```js
+const validPassword = await bcrypt.compare(body.password, user.password);
+```
