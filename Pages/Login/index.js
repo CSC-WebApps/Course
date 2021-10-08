@@ -11,9 +11,10 @@ var sessions = {};
 app.get('/',(req,res) => {
 
   let cookie = req.cookies.get('connect.sid');
+  console.log( `cookie: ${cookie}`);
   if( cookie ) {  
     res.sendFile('www/home.html');
-  } else { res.send('www/index.html'); }
+  } else { res.sendFile('www/index.html'); }
 });
 
 app.post('/login',(req,res) => {
