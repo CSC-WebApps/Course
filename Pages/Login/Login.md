@@ -10,6 +10,6 @@ Run server with `node index.js`. Submit form...
 
 *Note:* You can refresh the app by clicking the <kbd>⟳</kbd> button.
 
-```| {type: 'command'}
-curl localhost:3000/secret
+```| {type: 'command', failed_when:"exitCode!=0"}
+curl -s localhost:3000/secret
 ```
