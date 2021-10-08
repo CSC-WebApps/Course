@@ -21,8 +21,8 @@ app.get('/',(req,res) => {
 
 app.post('/login',(req,res) => {
 
-  // let secret = Math.random().toString(36).substring(2);
-  // res.cookie('connect.sid', secret );
+  let secret = Math.random().toString(36).substring(2);
+  res.cookie('demo.connect.sid', secret );
   res.redirect('/CSC-WebApps/Course/Pages/Login/Login.md/env/port/3000/');
 
 });
