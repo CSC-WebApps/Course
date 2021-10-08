@@ -12,7 +12,7 @@ var sessions = {};
 
 app.get('/',(req,res) => {
 
-  let cookie = req.cookies.get('connect.sid');
+  let cookie = req.cookies['connect.sid'];
   console.log( `cookie: ${cookie}`);
   if( cookie ) {  
     res.sendFile('www/home.html');
@@ -28,7 +28,7 @@ app.post('/login',(req,res) => {
 });
 
 app.post('/stash',(req,res) => {
-  let cookie = req.cookies.get('connect.sid');
+  let cookie = req.cookies['connect.sid'];
   if( cookie ) {
     sessions[cookie] = req.body.secret;
   }
@@ -37,7 +37,7 @@ app.post('/stash',(req,res) => {
 
 app.get('/secret',(req,res) => {
 
-  let cookie = req.cookies.get('connect.sid');
+  let cookie = req.cookies['connect.sid'];
   if( cookie ) {
     res.send( sessions[cookie] )
   } else {
