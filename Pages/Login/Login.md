@@ -1,7 +1,22 @@
-# Login
+# Using Cookies for Login
 
-Type, `npm install`.
-Run server with `node index.js`. Submit form... 
+![img](imgs/cookie.png)
+
+```html | {type: 'playground'}
+<div id="cookies">
+</div>
+<button onclick="showCookies()">Show cookies</button>
+
+<script>
+function showCookies() {
+  const output = document.getElementById('cookies');
+  output.textContent = '> ' + document.cookie;
+}
+</script>
+```
+
+## Try it out
+
 
 ```| {type: 'terminal'}
 ```
