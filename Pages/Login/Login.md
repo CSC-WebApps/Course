@@ -157,7 +157,7 @@ Run `npm install` and then start server with `node index.js`.
 <iframe id="serviceFrameSend" src="Login.md/env/port/3000/" width="800" height="600"  frameborder="1"></iframe>
 
 
-## Security
+## Security and Privacy
 
 ### Using UUID instead of home-grown random token
 
@@ -189,6 +189,13 @@ Signing cookies, transporting only over https, setting [HttpOnly](https://owasp.
 * **httpOnly**: a boolean indicating whether the cookie is only to be sent over HTTP(S), and not made available to client JavaScript (true by default).
 * **signed**: a boolean indicating whether the cookie is to be signed (true by default).
 
+### GDPR, CCPA, LGPD compliance
+
+Many countries and states have passed privacy laws that require companies follow regulations surrounding storage of personal information, which also includes cookie management.
+
+![img](imgs/privacy.png)
+
+You'll be expected to have a workflow for getting users to agree to setting a cookie, before setting a cookie. Incidentally, you probably can implement this by setting a cookie 😅. 
 
 ### Using CSRF Protection Tokens
 
