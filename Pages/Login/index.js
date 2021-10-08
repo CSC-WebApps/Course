@@ -10,7 +10,7 @@ var sessions = {};
 
 app.get('/',(req,res) => {
 
-  res.send("<a href='/login'>Login</a>");
+  res.sendFile('www/index.html');
 
 });
 
