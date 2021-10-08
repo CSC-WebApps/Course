@@ -1,6 +1,4 @@
 const express = require('express');
-const cookieParser = require("cookie-parser");
-const sessions = require('express-session');
 
 const app = express()
 const port = 3000
@@ -8,49 +6,38 @@ const port = 3000
 app.use(express.json()); 
 app.use(express.urlencoded({extended: true}));
 
-// creating 24 hours from milliseconds
-const oneDay = 1000 * 60 * 60 * 24;
-
-//session cookie
-app.use(cookieParser());
-
-//session middleware
-app.use(sessions({
-    secret: "secretsessionkey",
-    saveUninitialized:true,
-    cookie: { maxAge: oneDay },
-    resave: false
-}));
+var sessions = {};
 
 app.get('/',(req,res) => {
-  let session=req.session;
-  if(session.userid){
-      res.send("Welcome User <a href=\'/logout'>click to logout</a>");
-  }else
-  res.redirect('/');
+
+  res.send("<a href='/login'>Login</a>");
+
 });
 
-app.post('/user',(req,res) => {
+app.post('/login',(req,res) => {
 
-  if(req.body.username == "a" && req.body.password == "b"){
-      session=req.session;
-      session.userid=req.body.username;
-      console.log(req.session)
-      res.send(`Hey there, welcome <a href=\'/logout'>click to logout</a>`);
-  }
-  else{
-      res.send('Invalid username or password');
-  }
-
-})
-
-app.get('/logout',(req,res) => {
-  req.session.destroy();
+  let secret = Math.random().toString(36).substring(2);
+  res.cookie('connect.sid', secret )
   res.redirect('/');
+
 });
 
+app.post('/stash',(req,res) => {
+  let cookie = req.cookies.get('connect.sid');
+  if( cookie ) {
+    sessions[cookie] = req.body.secret;
+  }
+});
 
+app.get('/secret',(req,res) => {
 
+  let cookie = req.cookies.get('connect.sid');
+  if( cookie ) {
+    res.send( sessions[cookie] )
+  } else {
+    res.send("Unauthorized access");
+  }
+});
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
