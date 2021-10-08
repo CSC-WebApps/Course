@@ -15,15 +15,15 @@ app.get('/',(req,res) => {
   let cookie = req.cookies['connect.sid'];
   console.log( `cookie: ${cookie}`);
   if( cookie ) {  
-    res.sendFile('www/home.html');
-  } else { res.sendFile('www/index.html'); }
+    res.sendFile(`${__dirname}/www/home.html`);
+  } else { res.sendFile(`${__dirname}/www/index.html`); }
 });
 
 app.post('/login',(req,res) => {
 
   // let secret = Math.random().toString(36).substring(2);
   // res.cookie('connect.sid', secret );
-  res.redirect('/CSC-WebApps/Course/Pages/Login/Login.md/env/files/www/index.html');
+  res.redirect('/CSC-WebApps/Course/Pages/Login/Login.md/port/3000/');
 
 });
 
@@ -32,7 +32,7 @@ app.post('/stash',(req,res) => {
   if( cookie ) {
     sessions[cookie] = req.body.secret;
   }
-  res.redirect('/CSC-WebApps/Course/Pages/Login/Login.md/env/files/www/index.html');
+  res.redirect('/CSC-WebApps/Course/Pages/Login/Login.md/port/3000/');
 });
 
 app.get('/secret',(req,res) => {
