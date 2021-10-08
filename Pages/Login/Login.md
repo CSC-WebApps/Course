@@ -199,6 +199,8 @@ You'll be expected to have a workflow for getting users to agree to setting a co
 
 ### Using CSRF Protection Tokens
 
+See For [full tutorial](https://levelup.gitconnected.com/how-to-implement-csrf-tokens-in-express-f867c9e95af0).
+
 1. Server sends CSRF token with rendered view.
 
 ```js
