@@ -9,3 +9,7 @@ Run server with `node index.js`. Submit form...
 <button onclick="window.frames['serviceFrameSend'].src+='';">⟳</button>
 
 *Note:* You can refresh the app by clicking the <kbd>⟳</kbd> button.
+
+```| {type: 'command'}
+curl localhost:3000/secret
+```

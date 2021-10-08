@@ -10,8 +10,10 @@ var sessions = {};
 
 app.get('/',(req,res) => {
 
-  res.sendFile('www/index.html');
-
+  let cookie = req.cookies.get('connect.sid');
+  if( cookie ) {  
+    res.sendFile('www/home.html');
+  } else { res.send('www/index.html'); }
 });
 
 app.post('/login',(req,res) => {
@@ -27,6 +29,7 @@ app.post('/stash',(req,res) => {
   if( cookie ) {
     sessions[cookie] = req.body.secret;
   }
+  res.redirect('CSC-WebApps/Course/Pages/Login/Login.md/env/files/www/index.html');
 });
 
 app.get('/secret',(req,res) => {
