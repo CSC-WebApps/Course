@@ -14,7 +14,7 @@ Run server with `node index.js`. Submit form...
 </head>
 
 <body>
-    <form action="./Login.md/env/port/3000/user" method="post">
+    <form action="./Login.md/env/port/3000/login" method="post">
         <h2>Login</h2>
         <div class="input-field">
             <input type="text" name="username" id="username" placeholder="Enter Username">
