@@ -18,7 +18,7 @@ app.post('/login',(req,res) => {
 
   // let secret = Math.random().toString(36).substring(2);
   // res.cookie('connect.sid', secret );
-  res.redirect('/');
+  res.redirect('CSC-WebApps/Course/Pages/Login/Login.md/env/files/www/index.html');
 
 });
 
