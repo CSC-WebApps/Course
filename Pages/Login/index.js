@@ -23,7 +23,7 @@ app.post('/login',(req,res) => {
 
   // let secret = Math.random().toString(36).substring(2);
   // res.cookie('connect.sid', secret );
-  res.redirect('/CSC-WebApps/Course/Pages/Login/Login.md/port/3000/');
+  res.redirect('/CSC-WebApps/Course/Pages/Login/Login.md/env/port/3000/');
 
 });
 
@@ -32,7 +32,7 @@ app.post('/stash',(req,res) => {
   if( cookie ) {
     sessions[cookie] = req.body.secret;
   }
-  res.redirect('/CSC-WebApps/Course/Pages/Login/Login.md/port/3000/');
+  res.redirect('/CSC-WebApps/Course/Pages/Login/Login.md/env/port/3000/');
 });
 
 app.get('/secret',(req,res) => {
