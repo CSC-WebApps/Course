@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.0/socket.io.js"></script>
+  </head>
+
+<body>
+    <div id="message">
+
+    </div>
+    <script>
+        const host = `${window.location.hostname}:3133`;
+        console.log(`Connecting to ${host}`);
+        var socket = io(host, {transports: ["websocket"] });
+
+        console.log(socket);
+
+        socket.on("heartbeat", function(data) 
+        {
+            document.getElementById("message").append(data);
+        });        
+    </script>
+</body>
+</html>
+
+
