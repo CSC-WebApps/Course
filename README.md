@@ -22,9 +22,9 @@ Fri 12:50PM - 3:35PM
 |      | 
 | 10/8 | 🔐&nbsp;&nbsp;&nbsp;Authenication, Sessions&nbsp;&nbsp;&nbsp;💼 | Build a login webflow
 |      | CSFR, oauth, server-side sessions, cookies 
-| 10/15 | 🎨&nbsp;&nbsp;&nbsp;Animation + Visualization&nbsp;&nbsp;&nbsp;📈 | Build an interactive visualization | 
+| 10/15 | 🔅&nbsp;&nbsp;&nbsp;Websockets+Storage&nbsp;&nbsp;&nbsp;🔌 | Build a dashboard  | 
 |      | 
-| 10/22| 🔅&nbsp;&nbsp;&nbsp;Websockets&nbsp;&nbsp;&nbsp;🔌  | Build a dashboard |
+| 10/22|  🎨&nbsp;&nbsp;&nbsp;Animation + Visualization&nbsp;&nbsp;&nbsp;📈 | Build an interactive visualization |
 |      |
 | 10/29| 🎧&nbsp;&nbsp;&nbsp;Audio + Video&nbsp;&nbsp;&nbsp;📹 | Build a Clubhouse space |
 |      |
