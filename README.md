@@ -22,7 +22,7 @@ Fri 12:50PM - 3:35PM
 |      | 
 | 10/8 | 🔐&nbsp;&nbsp;&nbsp;Authenication, Sessions&nbsp;&nbsp;&nbsp;💼 | Build a login webflow
 |      | CSFR, oauth, server-side sessions, cookies 
-| 10/15 | 🔅&nbsp;&nbsp;&nbsp;Websockets+Storage&nbsp;&nbsp;&nbsp;🔌 | Build a dashboard  | 
+| 10/15 | 🔅&nbsp;&nbsp;&nbsp;Websockets+Storage&nbsp;&nbsp;&nbsp;🔌 | Build a shared pixel canvas  | [M2](Project/M2.md)
 |      | 
 | 10/22|  🎨&nbsp;&nbsp;&nbsp;Animation + Visualization&nbsp;&nbsp;&nbsp;📈 | Build an interactive visualization |
 |      |
