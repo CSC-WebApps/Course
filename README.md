@@ -26,13 +26,13 @@ Fri 12:50PM - 3:35PM
 |      | 
 | 10/22|  🎨&nbsp;&nbsp;&nbsp;Animation + Visualization&nbsp;&nbsp;&nbsp;📈 | Build an interactive visualization |
 |      |
-| 10/29| 🎧&nbsp;&nbsp;&nbsp;Audio + Video&nbsp;&nbsp;&nbsp;📹 | Build a Clubhouse space |
+| 10/29| 🎧&nbsp;&nbsp;&nbsp;Audio + Video&nbsp;&nbsp;&nbsp;📹 | Build a Zoom meeting room |
 |      |
-| 11/5| 🎛️&nbsp;&nbsp;&nbsp;Configuring and operating a web server&nbsp;&nbsp;&nbsp;🖥️ | Deploy a website
+| 11/5| 🎛️&nbsp;&nbsp;&nbsp;Configuring and operating a web server&nbsp;&nbsp;&nbsp;🖥️ | Deploy a website | [M3](Project/M3.md)
 |      |
 | 11/12 | 🕸️&nbsp;&nbsp;&nbsp;Advanced web architectures&nbsp;&nbsp;&nbsp;🏛️
 |      |
-| 11/19| 🎬&nbsp;&nbsp;&nbsp;Demos&nbsp;&nbsp;&nbsp;💯
+| 11/19| 🎬&nbsp;&nbsp;&nbsp;Demos&nbsp;&nbsp;&nbsp;💯 | [M3](Project/Demo.md)
 |      |
 | 11/26| No class
 | 12/3 | Final Exam (12:00--2:30PM) @ EB2 1025 | |  |
