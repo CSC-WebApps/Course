@@ -28,7 +28,7 @@ Fri 12:50PM - 3:35PM
 |      |
 | 10/29| 🎧&nbsp;&nbsp;&nbsp;Audio + Video&nbsp;&nbsp;&nbsp;📹 | Build a Zoom meeting room |
 |      |
-| 11/5| 🎛️&nbsp;&nbsp;&nbsp;Configuring and operating a web server&nbsp;&nbsp;&nbsp;🖥️ | Deploy a website | [M3](Project/M3.md)
+| 11/5| 🎛️&nbsp;&nbsp;&nbsp;[Configuring and operating a web server](https://docs.google.com/presentation/d/1iiI36n-HhcCmXelAxR7uYKMRghSR6kwUH0omsVNiQ-k/edit#slide=id.p)&nbsp;&nbsp;&nbsp;🖥️ | [Deploy a website](https://github.com/CSC-WebApps/Deploy) | [M3](Project/M3.md)
 |      |
 | 11/12 | 🕸️&nbsp;&nbsp;&nbsp;Advanced web architectures&nbsp;&nbsp;&nbsp;🏛️
 |      |
