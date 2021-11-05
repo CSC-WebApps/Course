@@ -22,11 +22,11 @@ Fri 12:50PM - 3:35PM
 |      | 
 | 10/8 | 🔐&nbsp;&nbsp;&nbsp;Authenication, Sessions&nbsp;&nbsp;&nbsp;💼 | [Build a login webflow](https://github.com/CSC-WebApps/Login)
 |      | CSFR, oauth, server-side sessions, cookies 
-| 10/15 | 🔅&nbsp;&nbsp;&nbsp;Websockets+Storage&nbsp;&nbsp;&nbsp;🔌 | Build a shared pixel canvas  | [M2](Project/M2.md)
+| 10/15 | 🔅&nbsp;&nbsp;&nbsp;Websockets+Storage&nbsp;&nbsp;&nbsp;🔌 | [Build a shared pixel canvas](https://github.com/CSC-WebApps/Storage)  | [M2](Project/M2.md)
 |      | 
 | 10/22|  🎨&nbsp;&nbsp;&nbsp;Animation + Visualization&nbsp;&nbsp;&nbsp;📈 | Build an interactive visualization |
 |      |
-| 10/29| 🎧&nbsp;&nbsp;&nbsp;Audio + Video&nbsp;&nbsp;&nbsp;📹 | Build a Zoom meeting room |
+| 10/29| 🎧&nbsp;&nbsp;&nbsp;Audio + Video&nbsp;&nbsp;&nbsp;📹 | [Build a Zoom meeting room](https://github.com/CSC-WebApps/PackSpaces) |
 |      |
 | 11/5| 🎛️&nbsp;&nbsp;&nbsp;[Configuring and operating a web server](https://docs.google.com/presentation/d/1iiI36n-HhcCmXelAxR7uYKMRghSR6kwUH0omsVNiQ-k/edit#slide=id.p)&nbsp;&nbsp;&nbsp;🖥️ | [Deploy a website](https://github.com/CSC-WebApps/Deploy) | [M3](Project/M3.md)
 |      |
