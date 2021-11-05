@@ -20,7 +20,7 @@ Fri 12:50PM - 3:35PM
 |      | _Mushtache Templates, Angular, React, Vue_ | 
 | 10/1 | 📦&nbsp;&nbsp;&nbsp;Backend concepts&nbsp;&nbsp;&nbsp;🔛 | Build three webpages in three frameworks (P2) | [M1](Project/M1.md)
 |      | 
-| 10/8 | 🔐&nbsp;&nbsp;&nbsp;Authenication, Sessions&nbsp;&nbsp;&nbsp;💼 | Build a login webflow
+| 10/8 | 🔐&nbsp;&nbsp;&nbsp;Authenication, Sessions&nbsp;&nbsp;&nbsp;💼 | [Build a login webflow](https://github.com/CSC-WebApps/Login)
 |      | CSFR, oauth, server-side sessions, cookies 
 | 10/15 | 🔅&nbsp;&nbsp;&nbsp;Websockets+Storage&nbsp;&nbsp;&nbsp;🔌 | Build a shared pixel canvas  | [M2](Project/M2.md)
 |      | 
