@@ -30,8 +30,8 @@ Fri 12:50PM - 3:35PM
 |      |
 | 11/5| 🎛️&nbsp;&nbsp;&nbsp;[Configuring and operating a web server](https://docs.google.com/presentation/d/1iiI36n-HhcCmXelAxR7uYKMRghSR6kwUH0omsVNiQ-k/edit#slide=id.p)&nbsp;&nbsp;&nbsp;🖥️ | [Deploy a website](https://github.com/CSC-WebApps/Deploy) | [M3](Project/M3.md)
 |      |
-| 11/12 | 🕸️&nbsp;&nbsp;&nbsp;Advanced web architectures&nbsp;&nbsp;&nbsp;🏛️
-|      |
+| 11/12 | 🕸️&nbsp;&nbsp;&nbsp;[Advanced web architectures](https://drive.google.com/file/d/1-59EGq1SAsbHWCFiQ7r5nqgxdI6XzKpV/view)&nbsp;&nbsp;&nbsp;🏛️
+|      | [HW5](https://forms.gle/W2eEQopTVPSZSMECA)
 | 11/19| 🎬&nbsp;&nbsp;&nbsp;Demos&nbsp;&nbsp;&nbsp;💯 | [Demo Videos](Project/Demo.md)
 |      |
 | 11/26| No class
